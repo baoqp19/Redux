@@ -14,6 +14,9 @@ sử dụng 2 thư viện
 -- react-redux --> Cung cấp các component, hook để dẽ dàng làm việc với redux
 -- redux-thunk --> thunk Middleware của redux
 
+
 # redux Toolkit
 
 Tổng hợp tất cả những thứ trên
+
+# npm i redux react-redux
