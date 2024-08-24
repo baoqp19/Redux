@@ -33,3 +33,6 @@ rootReducer
 
 
 # npm i @redux-devtools/core
+
+
+# npm i redux-thunk
