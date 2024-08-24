@@ -20,3 +20,16 @@ sử dụng 2 thư viện
 Tổng hợp tất cả những thứ trên
 
 # npm i redux react-redux
+
+
+# kỹ thuật tách Reuducer
+rootReducer
+-- counterReducer
+-- todoReducer
+==> gom các reducer thành rootReducer bằng cách sử dụng hàm combineReducers();
+
+
+// Action Creator --> gom các action thành 1 hàm để sử dụng
+
+
+# npm i @redux-devtools/core
