@@ -1,4 +1,5 @@
 import { combineReducers, legacy_createStore as createStore } from "redux";
+import { composeWithDevTools } from "@redux-devtools/extension";
 import { counterReducer } from "./reducers/counterReducer";
 import { todoReducer } from "./reducers/todoReducer";
 
@@ -11,9 +12,10 @@ const rootReducer = combineReducers({
     todo: todoReducer,
 })
 
-export const store = createStore(rootReducer);
+export const store = createStore(rootReducer,composeWithDevTools());
 console.log(store);
 
+// composeWithDevTools() trong inspect hiện thị phân action.type
 
 
 
