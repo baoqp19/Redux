@@ -1,6 +1,6 @@
 
 const initialState = {
-    count : 0,
+    todoList: []
 }
 
 export const todoReducer = (state = initialState, action) => {

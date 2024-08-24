@@ -1,6 +1,6 @@
 import React from "react";
 import { useDispatch, useSelector } from "react-redux";
-import { increment } from "../redux/counterAction";
+import { increment } from "../actions/counterAction";
 
 const Counter = () => {
   // lấy state từ store
